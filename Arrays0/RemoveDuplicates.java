@@ -2,13 +2,15 @@ package Arrays0;
 
 public class RemoveDuplicates {
     public static void main(String[] args){
-        int array[] = {0,0,1,1,1,2,2,3,3,4};
+        int array[] ={0,0,1,1,1,2,2,3,3,4};
         System.out.println("Before removing duplicates:");
         for(int n: array){
             System.out.print(n+" ");
         }
         System.out.println();
-        help obj = new help();
+
+
+
         int unique = 0;
         int index = 0;
         for(int i=0;i<array.length;i++){
@@ -22,28 +24,16 @@ public class RemoveDuplicates {
                 index++;
             }
         }
+
+
+
+
+
+
         System.out.println("After removing duplicates:");
         for(int n: array){
             System.out.print(n+" ");
         }
         System.out.println();
-    }
-}
-class help{
-    public int[] Removeduplicate(int nums[]){
-        int unique = 0;
-        int index = 0;
-        for(int i=0;i<nums.length;i++){
-            if(i==0){
-                unique = nums[i];
-                index++;
-            }
-            else if(unique!=nums[i]){
-                unique = nums[i];
-                nums[index] = nums[i];
-                index++;
-            }
-        }
-        return nums;
     }
 }
