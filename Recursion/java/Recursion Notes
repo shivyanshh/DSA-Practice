@@ -1,0 +1,15 @@
+🔹 What is Recursion?
+Recursion is when a function calls itself to solve a smaller part of the problem, until it reaches a point where it stops calling — called the base case.
+
+🧠 Real-Life Analogy:
+Imagine you're standing in a line of people. Each person asks the person in front of them:
+“Hey, how many people are in front of you?”
+That person does the same, until the first person (front of the line) says:
+“Zero.”
+
+Then everyone adds 1 and passes it back:
+
+Copy
+Edit
+0 → 1 → 2 → 3 → ...
+This is recursion.
